@@ -19,7 +19,6 @@ function makeGrid() {
     }
   }
 
-  //Listen for cell clicks
   table.on("click", "td", function() {
     var color = $("input[type='color']").val();
     $(this).attr("bgcolor", color);
